@@ -1,25 +1,37 @@
 *{
     margin: 0%;
     padding: 0%;
+    flex-wrap: wrap;
+    box-sizing: border-box;
    
 }
+
+@font-face {
+    font-family: futura;
+    src: url(./images/font/Futura.ttf);
+}
+
 header{
     display: flex;
     background-color: black;
     align-items: center;
     justify-content: space-around;
 }
+
 .logo{
     width: 100px;
 }
+
 .logo img{
     width: 100%;
 }
+
 .nav-links{
     display: flex;
     text-decoration: none;
     gap: 20px;
 }
+
 .nav-links li a{
     color: white;
     text-decoration: none;
@@ -31,6 +43,7 @@ header{
     align-items: center;
     gap: 100px;
 }
+
 .btn{
     align-items: center;
     display: flex;
@@ -57,5 +70,68 @@ header{
     background-color: white;
    
     padding: 10px;
-     border-radius:  50px;
+     border-radius:  10px;
+}
+.banner{
+    width: 100%;
+}
+.banner .d-block {
+    width: 100%;
+}
+.brend{
+ background-color: black;
+ width: 100%;
+ color: white;
+ padding: 20px 50px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 30px;
+}
+.brend .content{
+    text-align: center;
+}
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+   gap: 20px;
+}
+ .box1{
+     width: 20%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+gap: 10px;
+ }
+ 
+    
+.box1 img{
+    width: 100%;
+    background-color: white;
+    
+   
+}
+ 
+
+span{
+    
+        font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+
+.btn1 {
+
+outline: none ;
+    border: none;
+    background-color: transparent;
+    padding: 20px 40px;
+
+    border: 1px solid white;
+    border-radius: 50px;
 }
