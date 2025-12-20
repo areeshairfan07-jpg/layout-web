@@ -168,10 +168,65 @@ text-align: center;
 }
 .isb{
     display: flex;
+    align-items: center;
     gap: 100px;
 }
 
 .imagee{
     padding-left:100px ;
+    display: flex;
    
 }
+
+  
+  
+.direction-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 28px;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.direction-btn .icon {
+  width: 28px;
+  height: 28px;
+  background: #ffffff;
+  color: #000;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  
+}
+#fsl{
+    color: red;
+}
+#bha{
+    color: red;
+}
+
+.fasla{
+    display: flex;
+    align-items: center;
+    /* gap: 100px; */
+}
+
+.imagee{
+    padding-left:100px ;
+    display: flex;
+   
+}
+.franchises_second_section{
+    text-align: center;
+}
+
+
