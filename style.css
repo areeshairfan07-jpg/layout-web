@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     flex-wrap: wrap;
     box-sizing: border-box;
-   
+
 }
 
 @font-face {
@@ -11,144 +11,157 @@
     src: url(./images/font/Futura.ttf);
 }
 
-header{
+header {
     display: flex;
     background-color: black;
     align-items: center;
     justify-content: space-around;
 }
 
-.logo{
+.logo {
     width: 100px;
 }
 
-.logo img{
+.logo img {
     width: 100%;
 }
 
-.nav-links{
+.nav-links {
     display: flex;
     text-decoration: none;
     gap: 20px;
 }
 
-.nav-links li a{
+.nav-links li a {
     color: white;
     text-decoration: none;
-    
+
 }
 
-.right{
+.right {
     display: flex;
     align-items: center;
     gap: 100px;
 }
 
-.btn{
+.btn {
     align-items: center;
     display: flex;
-   gap: 30px;
-   justify-content: space-around;
+    gap: 30px;
+    justify-content: space-around;
 }
 
-.btn button{
+.btn button {
     outline: none;
     border: none;
     color: white;
     background-color: transparent;
     border: 1px solid white;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 10px 50px;
+    border-radius: 10px;
 }
 
-#order{
-    background-color: red ;
-    
+#order {
+    background-color: red;
+
 }
-.red{
+.icon i {
+    border-radius: 50%;
+    padding: 12px;
+}
+
+.red {
     color: red !important;
     background-color: white;
-   
+
     padding: 10px;
-     border-radius:  10px;
+    border-radius: 10px;
 }
-.banner{
+
+.banner {
     width: 100%;
 }
+
 .banner .d-block {
     width: 100%;
 }
-.brend{
- background-color: black;
- width: 100%;
- color: white;
- padding: 20px 50px;
- display: flex;
- flex-direction: column;
- align-items: center;
- gap: 30px;
+
+.brend {
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
 }
-.brend .content{
+
+.brend .content {
     text-align: center;
 }
-.container{
+
+.container {
     display: flex;
     width: 100%;
     justify-content: center;
-   gap: 20px;
+    gap: 20px;
 }
- .box1{
-     width: 20%;
- display: flex;
- flex-direction: column;
- align-items: center;
-gap: 10px;
- }
- 
-    
-.box1 img{
+
+.box1 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.box1 img {
     width: 100%;
     background-color: white;
-    
-   
-}
- 
 
-span{
-    
-        font-family: 'futurak';
+
+}
+
+
+span {
+
+    font-family: 'futurak';
     font-style: normal;
     font-weight: 400;
-    font-size: 52px;
+    /* font-size: 52px; */
     line-height: 62px;
     color: #FFFFFF;
 }
 
 
+
 .btn1 {
 
-outline: none ;
+    outline: none;
     border: none;
     background-color: transparent;
-    padding: 20px 40px;
+    padding: 20px 20px;
 
     border: 1px solid white;
-    border-radius: 50px;
+    border-radius: 10px;
 
 }
 
 
-.ferenchise{
+.ferenchise {
     width: 100%;
     background-color: black;
 
 }
-.franchise .contents h1 p{
-color: white;
+
+.franchise .contents h1 p {
+    color: white;
 
 }
 
-.ferenchise{
+.ferenchise {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -157,76 +170,87 @@ color: white;
     background-color: rgb(22, 21, 21);
     color: white;
 }
-.contents{
-text-align: center;
+
+.contents {
+    text-align: center;
 }
 
-#isl{
+#isl {
     color: red;
 
 
 }
-.isb{
+
+.isb {
     display: flex;
     align-items: center;
     gap: 100px;
 }
 
-.imagee{
-    padding-left:100px ;
+.imagee {
+    padding-left: 100px;
     display: flex;
-   
+
 }
 
-  
-  
+
+
 .direction-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 12px;
-  padding: 14px 28px;
-  color: #ffffff;
-  text-decoration: none;
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 50px;
-  transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 28px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    transition: all 0.3s ease;
 }
 
 .direction-btn .icon {
-  width: 28px;
-  height: 28px;
-  background: #ffffff;
-  color: #000;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 16px;
-  
+    width: 28px;
+    height: 28px;
+    background: #ffffff;
+    color: #000;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+
 }
-#fsl{
+
+#fsla {
     color: red;
+    
 }
-#bha{
+
+
+#bhl {
     color: red;
 }
 
-.fasla{
+.fasla {
     display: flex;
     align-items: center;
     /* gap: 100px; */
 }
 
-.imagee{
-    padding-left:100px ;
+.imagee {
+    padding-left: 100px;
     display: flex;
-   
+
 }
-.franchises_second_section{
+
+.franchises_second_section {
     text-align: center;
 }
 
 
+
+.isb {
+    display: flex;
+}
