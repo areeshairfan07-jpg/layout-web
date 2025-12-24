@@ -254,3 +254,18 @@ span {
 .isb {
     display: flex;
 }
+/* 2 ferenchse */
+.secondferenchise{
+
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    width: 100%;
+    background-color: rgb(22, 21, 21);
+    color: white
+    }
+#ser{
+    color: red;
+}
+
