@@ -207,20 +207,8 @@ span {
     font-weight: 500;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 50px;
-    transition: all 0.3s ease;
-}
-
-.direction-btn .icon {
-    width: 28px;
-    height: 28px;
-    background: #ffffff;
-    color: #000;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 16px;
-
+    background-color: black;
+    
 }
 
 #fsla {
@@ -268,4 +256,73 @@ span {
 #ser{
     color: red;
 }
+.city{
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 28px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    background-color: black;
+}
+.ferenchise {
+    width: 100%;
+    background-color: black;
+}
+.secondferenchise .heading h1 p{
+color: white;
+}
+
+ 
+  /* {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    width: 100%;
+    background-color: rgb(22, 21, 21);
+    color: white;
+}
+.heading {
+    text-align: center;
+}
+
+
+} */
+ .row{
+    display: flex;
+    gap: 30px;
+    background-color: black;
+    color: white;
+    justify-content:center ;
+ }
+ .imgsize{
+    width: 1000px;
+ }
+ .lah img{
+    width: 400px;
+
+ }
+ .ghu img{
+    width: 300px;
+
+ }
+ .sahi img{
+    width: 400px;
+
+
+ }
+ .rat{
+    gap: 30px#;
+ }
+ #vill{
+    align-items: center;
+ }
+ 
+   
 
