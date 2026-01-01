@@ -452,7 +452,17 @@ color: red;
     display: flex;
     
  }
- 
+ footer{
+    background-color: black;
+    color: white;
+ }
+ .pic {
+    width: 100px;
+}
+
+.pic img {
+    width: 100%;
+}
     
  
    
