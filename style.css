@@ -7,9 +7,14 @@
 }
 
 @font-face {
-    font-family: futura;
+    font-family: "futura";
     src: url(./images/font/Futura.ttf);
 }
+@font-face {
+    font-family: "apercu";
+    src: url(./images/Apercu-Font\ \(2\).zip);
+}
+
 
 header {
     display: flex;
@@ -455,6 +460,11 @@ color: red;
  footer{
     background-color: black;
     color: white;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
  }
  .pic {
     width: 100px;
@@ -463,6 +473,16 @@ color: red;
 .pic img {
     width: 100%;
 }
+.child{
+    width: 15%;
+}
+ .firstchild{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: apercu;
+ }
+
     
  
    
