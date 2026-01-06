@@ -482,6 +482,20 @@ color: red;
     gap: 20px;
     font-family: apercu;
  }
+ .secondchild{
+    color: white;
+    text-decoration: none;
+    flex-direction: column;
+    justify-content: flex-start;
+
+ }
+ .secondchild p{
+    text-decoration: none;
+ }
+ .foot link li{
+    text direction: none;
+    color: white
+ }
 
     
  
