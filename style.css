@@ -492,10 +492,44 @@ color: red;
  .secondchild p{
     text-decoration: none;
  }
- .foot link li{
-    text direction: none;
-    color: white
+ .foot{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
  }
+ .foot li{
+    list-style: none;
+    
+ }
+ .foot li a{
+    text-decoration: none;
+    color: white;
+   
+ }
+ .childfif{
+     display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+ .childsix{
+display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+ .socialicon i{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+ }
+ .socialicon {
+    display: flex;
+ }
+
 
     
  
