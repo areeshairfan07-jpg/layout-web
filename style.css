@@ -529,7 +529,17 @@ display: flex;
  .socialicon {
     display: flex;
  }
-
+ .apple{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+ .village{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+ }
+ 
 
     
  
